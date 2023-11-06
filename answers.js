@@ -148,9 +148,6 @@ function desafio14(){ // Imprimir los primeros 10 numeros de la serie de Fibonac
     }
 }
 
-// No se resolverlo sin recursión. Check solution on Github.
-// No, lo hice bien XDD
-
 function desafio15(N){ // Dado un numero N busca si se encuentra en la serie de Fibonacci, devuelve un True o False
     let a = 1;
     let b = 0;
@@ -935,20 +932,6 @@ function desafio52_add(n1, n2){ // Se encarga de sumar
 }
 
 // console.log(desafio52(10));
-
-/*
-　　　　　　　　　 ,ｰ､　　　＿＿　　　　,ｰ､
-　　　　　　　　. / ﾍ 〉, -´ｰ･ー ､ ｀ヽ/ ﾍ 〉
-　　 　 　　　　〈〈.／:::::: i:::ヽ〈〈 ⌒ヽ
-　　　　　　　　i :/,::: 人:::ﾄ､::::::゛ :: i
-　　　　　　　　!〃::／　.ヽ :!　ヽ::::i、::: |
-　　　　　　　　|ﾚ! / ●　　 ﾘ ●   ﾙ::!┐ ::::: |
-　　　　　　　　|: Vl⊃　､_,､_,　⊂⊃::/ .」|::::}
-　 　 　 　 /⌒ヽﾍ ﾍ　　 ゝ._）　 　j,./⌒i!::::i
-　　　　　　＼ //:::＼＞,､ __,　イァ.i´⌒ヽ|:::::i
-.　　　　　 　 //::::/ ｀V{__}V´==.  |/ 7.|:::::|
-　　　　　　　゛‐--　´　　 .ハ　　　 |ｰ-/　; :::: ﾉ
-*/
 
 function sumar(n1, n2){ // Suma tradicional
     let maxSize = Math.max(n1.length, n2.length);
